@@ -1,0 +1,44 @@
+﻿#menu {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+    #menu ul {
+        list-style: none;
+        width: 500px;
+        height: 40px;
+    }
+
+        #menu ul li {
+            background-color: cornflowerblue;
+            border: solid 1px white;
+            width: 120px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            float: left;
+        }
+
+            #menu ul li a {
+                text-decoration: none;
+                color: #fff;
+                display: block;
+            }
+
+                #menu ul li a:hover {
+                    background-color: #ff6a00;
+                    color: #fff;
+                }
+
+    #menu .active a {
+        background-color: #ff006e;
+        color: #fff;
+    }
+
+
+.error {
+    border: 2px solid;
+    border-color:red;
+}
